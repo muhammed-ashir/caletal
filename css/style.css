@@ -1,0 +1,15 @@
+
+
+
+/* navbar */
+.caletal-nav {
+    background: #fff;
+    padding: 0;
+    z-index: 9;
+}
+.caletal-nav .nav-link {
+    font-weight: 600;
+    padding: 18px 0px !important;
+    margin: 0 0 0 31px;
+}
+/* navbar end */
