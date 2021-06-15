@@ -1,6 +1,5 @@
 
 
-
 /* navbar */
 .caletal-nav {
     background: #fff;
@@ -13,3 +12,104 @@
     margin: 0 0 0 31px;
 }
 /* navbar end */
+
+
+/* Banner Style */
+
+.banner {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.banner-item-01 {
+	padding: 200px 0px;
+	background-image: url(../img/slide_01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.banner-item-02 {
+	padding: 200px 0px;
+	background-image: url(../img/slide_02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.banner-item-03 {
+	padding: 200px 0px;
+	background-image: url(../img/slide_03.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.banner .text-content {
+	position: absolute;
+	transform: translate(80px,50px);
+	width: 100%;
+}
+
+.banner .text-content h6 {
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.banner .text-content h3 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.owl-banner .owl-dots .owl-dot {
+  border-radius: 3px;
+}
+.owl-banner .owl-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    left: 118px;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+.owl-banner .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.owl-banner .owl-dots .owl-dot:focus {
+    outline: none
+}
+.owl-banner .owl-dots .owl-dot.active {
+    background-color: #fff;
+    opacity: 1;
+}
+
+/* Banner Style ends */
+
+/* card */
+
+/* #card{
+	margin: 50px auto;
+	justify-content: center;
+}
+.card{
+	margin: 10px;
+} */
+
+
+/* card ends */
