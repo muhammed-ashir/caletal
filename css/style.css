@@ -137,11 +137,13 @@ body::-webkit-scrollbar {
 }
 
 #border p{
+	color: #707070;
 	font: normal normal normal 14px/20px Roboto;
 }
 
 #border1 p{
-	font: normal normal normal 14px/20px Roboto;
+	color: #707070;
+	font: normal normal normal 12px/20px Roboto;
 }
 
 
