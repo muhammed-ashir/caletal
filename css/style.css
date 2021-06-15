@@ -103,13 +103,20 @@
 
 /* card */
 
-/* #card{
+#card{
 	margin: 50px auto;
 	justify-content: center;
 }
 .card{
 	margin: 10px;
-} */
+}
+#border{
+	border-right: 1.4px solid rgba(0, 0, 0, .1);
+}
+#border h5{
+	font-size: 15px; 
+	font-weight: 800;
+}
 
 
 /* card ends */
