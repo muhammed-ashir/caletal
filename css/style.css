@@ -1,4 +1,7 @@
-
+*{
+	margin: 0;
+	padding: 0;
+}
 
 /* navbar */
 .caletal-nav {
@@ -17,16 +20,14 @@
 /* Banner Style */
 
 .banner {
-	margin: 0;
 	position: relative;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	
 }
 
 .banner-item-01 {
-	padding: 200px 0px;
+	height: 330px;
 	background-image: url(../img/slide_01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -34,7 +35,7 @@
 }
 
 .banner-item-02 {
-	padding: 200px 0px;
+	height: 330px;
 	background-image: url(../img/slide_02.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -42,7 +43,7 @@
 }
 
 .banner-item-03 {
-	padding: 200px 0px;
+	height: 330px;
 	background-image: url(../img/slide_03.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,7 +52,7 @@
 
 .banner .text-content {
 	position: absolute;
-	transform: translate(80px,50px);
+	transform: translate(90px,160px);
 	width: 100%;
 }
 
@@ -79,7 +80,7 @@
     -webkit-justify-content: center;
     justify-content: center;
     position: absolute;
-    left: 118px;
+    left: 128px;
     transform: translateX(-50%);
     bottom: 30px;
 }
@@ -124,7 +125,22 @@
 #section3{
 	width: 100%;
 	height: 300px;
-	background-color: aquamarine;
+	background-image: url(../img/sec3.jpg);
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+#section3 h6{
+	color: white;
+	margin: 20px;
+}
+#section3 button{
+	background-color: white;
+	border: none;
+	padding: 5px 10px 5px 10px;
+}
+#section3 .con{
+	text-align: center;
 }
 
 /* Section3 ends */
@@ -134,7 +150,63 @@
 #services{
 	width: 100%;
 	height: 300px;
-	background-color: rgb(145, 177, 137);
+	background-color: #1498DB;
+	color: white;
+	margin: 0;
+}
+
+#services .title{
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#services1 .content{
+	text-align: center;
+}
+#services1{
+	justify-content: center;
+}
+#services1 .icon img{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+}
+#services1 .content h3{
+	font-size: 20px;
 }
 
 /* services ends */
+
+/* footer */
+#foot{
+	width: 100%;
+	height: 260px;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding-top: 50px;
+	
+}
+
+#foot ul{
+	list-style-type: none;
+}
+#foot ul li{
+	margin-bottom: 5px;
+}
+
+
+#foot .foot1{
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	font-size: 12px;
+	margin-top: 40px;
+	color: #9A9A9A;
+	padding: 10px;
+}
+
+#foot img{
+	/* width: 5px;
+	height: 5px; */
+	margin-left: 18px;
+}
+/* footer ends */
