@@ -9,9 +9,9 @@ jQuery( document ).ready(function( $ ) {
                 dots: true,
                 items: 1,
                 margin: 0,
-                autoplay: false,
+                autoplay: true,
                 smartSpeed: 700,
-                autoplayTimeout: 6000,
+                autoplayTimeout: 3000,
                 responsive: {
                     0: {
                         items: 1,
@@ -23,11 +23,11 @@ jQuery( document ).ready(function( $ ) {
                     },
                     576: {
                         items: 1,
-                        margin: 20
+                        margin: 0
                     },
                     992: {
                         items: 1,
-                        margin: 30
+                        margin: 0
                     }
                 }
             });
