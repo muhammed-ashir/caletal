@@ -129,6 +129,7 @@ body::-webkit-scrollbar {
 }
 #border{
 	border-right: 1.4px solid rgba(0, 0, 0, .1);
+	text-align: right;
 }
 #border h5{
 	font-size: 15px; 
